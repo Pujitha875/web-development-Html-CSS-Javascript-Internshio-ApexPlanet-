@@ -1,0 +1,72 @@
+Internship Task
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Webpage</title>
+  <!-- CSS Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2e828b;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p {
+      line-height: 1.6;
+      font-family: "Roboto";
+    }
+
+    img {
+      width: 150px;
+      border: 2px solid #ccc;
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #ff1eb4;
+      text-decoration: none;
+    }
+
+    button {
+      background-color: #2e618b;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #b3643c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a simple paragraph about myself. I am learning how to build websites using HTML, CSS, and JavaScript.</p>
+
+  <img src="https://www.greatlike.com/wp-content/uploads/2020/04/1584082601Web-development-designing-Anvar-Freelancer-1-1.png" alt="Sample Image">
+
+  <p>Check out this link: <a href="https://www.example.com" target="_blank">Example Website</a></p>
+
+  <button onclick="showMessage()">Click Me!</button>
+
+  <!-- JavaScript -->
+  <script>
+    function showMessage() {
+      alert('Hello! You clicked the button.');
+    }
+  </script>
+
+</body>
+</html>
